@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Pageheader from "../components/Pageheader";
+import Navbar from "../components/Navbar";
+import Whatsapp from "../components/Whatsapp";
 
 const SalaryPage = () => {
   const [searchText, setSearchText] = useState("");
@@ -28,6 +30,9 @@ const SalaryPage = () => {
 
   console.log(searchText);
   return (
+    <div>
+      
+      <Navbar/>
     <div className="max-w-screen-2xl container mx-auto xl:px-24 px-4 mt-24">
       <Pageheader tittle={"Search for companies"} path={"Company"} />
 
@@ -70,6 +75,9 @@ const SalaryPage = () => {
             ))
         }
       </div>
+      </div>
+
+      <Whatsapp/>
     </div>
   );
 };

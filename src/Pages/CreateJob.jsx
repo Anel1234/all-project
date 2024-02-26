@@ -14,16 +14,16 @@ const CreateJob = () => {
     // console.log(data);
     fetch("http://localhost:3000/post-job", {
       method: "POST",
-      headers: {'content-type': 'application/json'},
-      body: JSON.stringify(data)
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify(data),
     })
       .then((res) => res.json())
       .then((result) => {
         console.log(result);
-        if(result.acknowledged === true ){
-          alert("Job Posted Successfully!!!")
+        if (result.acknowledged === true) {
+          alert("Job Posted Successfully!!!");
         }
-        reset()
+        reset();
       });
   };
   const options = [
@@ -134,7 +134,7 @@ const CreateJob = () => {
           </div>
 
           {/* 5th row */}
-          <div>
+          <div className="skill">
             <label className="block mb-2 text-lg">Required Skill Sets:</label>
             <CreatableSelect
               defaultValue={selectedOption}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "newsTitle": "Linear company",
+    "newsLogo": "/images/Linear.png",
+    "postingDate": "2023-11-03",
+    "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
+  },
+  {
+    "id": 2,
+    "newsTitle": "Linear company",
+    "newsLogo": "/images/Linear.png",
+    "postingDate": "2023-11-03",
+    "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
+  },
+  {
+    "id": 3,
+    "newsTitle": "Linear company",
+    "newsLogo": "/images/Linear.png",
+    "postingDate": "2023-11-03",
+    "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
+  },
+  {
+    "id": 4,
+    "newsTitle": "Linear company",
+    "newsLogo": "/images/Linear.png",
+    "postingDate": "2023-11-03",
+    "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
+  },
+  {
+    "id": 5,
+    "newsTitle": "Linear company",
+    "newsLogo": "/images/Linear.png",
+    "postingDate": "2023-11-03",
+    "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
+  }
+]

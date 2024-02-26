@@ -151,6 +151,13 @@ li {
 .create-job-input{
   @apply block w-full flex-1 bg-white py-1.5 pl-3 text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm sm:leading-6
 }
+.create-news-flex{
+  @apply flex flex-col lg:flex-row items-center justify-between gap-8;
+}
+
+.create-news-input{
+  @apply block w-full flex-1 bg-white py-1.5 pl-3 text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm sm:leading-6
+}
 
 .whatsapp-button {
   position: fixed;
@@ -160,3 +167,56 @@ li {
   background: none;
   cursor: pointer;
 }
+
+/* Dalam file CSS terpisah */
+.custom-object-position {
+  object-position: center top; /* Sesuaikan dengan posisi yang diinginkan */
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 500px;
+}
+
+.modal-content {
+  /* Add any additional styling for the modal content */
+}
+
+/* Add this style to center the modal backdrop */
+.modalOpen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* Add styling for the close button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #aaa;
+}
+
+.modal input{
+  width: 100%;
+  border: solid black 1px;
+  border-radius: 4px;
+}
+/* Add styling for the form elements if needed */
+

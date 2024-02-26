@@ -11,7 +11,7 @@ const NavSub = () => {
     <div className="max-w-screen-2xl mx-auto container my-20 xl:px-24 px-4 fixed bg-white z-10 p-5">
       <nav className="">
         <ul className="flex space-x-10">
-          <Link to="/" className={`link ${location.pathname === '/' ? 'border-b-4 border-blue' : ''}`}>
+          <Link to="/home" className={`link ${location.pathname === '/home' ? 'border-b-4 border-blue' : ''}`}>
             <li className="flex items-center gap-2 hover:text-blue/85">
               <MdExplore />EXPLORE
             </li>
