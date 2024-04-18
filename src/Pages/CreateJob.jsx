@@ -42,6 +42,8 @@ const CreateJob = () => {
       {/* form */}
       <div className="bg-[FAFAFA] py-10 px-4 lg:px-16">
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
+        data.expirationDate = data.expirationDate; // You need to replace 'expirationDate' with the actual field name from your form
+
           {/* 1st row */}
           <div className="create-job-flex">
             <div className="lg:w-1/2 w-full">
@@ -181,6 +183,16 @@ const CreateJob = () => {
               }
               placeholder="Job Description"
               {...register("description")}
+            />
+          </div>
+
+          {/* 8th row: Expiration Date */}
+          <div className="lg:w-1/2 w-full">
+            <label className="block mb-2 text-lg">Expiration Date</label>
+            <input
+              type="date"
+              {...register("expirationDate")} // Adjust name as per your form data
+              className="create-job-input"
             />
           </div>
 

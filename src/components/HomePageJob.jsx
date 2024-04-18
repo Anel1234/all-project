@@ -5,6 +5,8 @@ import Whatsapp from "../components/Whatsapp";
 import Navbar from "../components/Navbar";
 import { useState, useEffect } from "react";
 import Card from "./Card";
+import Patner from "./Patner";
+import Testimoni from "./Testimoni";
 
 const HomePageJob = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -166,15 +168,20 @@ const HomePageJob = () => {
               >
                 Next Button
               </button>
-            </div>
+              </div>
           ) : (
             ""
           )}
+          <div>
+
+            <Patner />
+        <Testimoni />
+          </div>
+        </div>
         </div>
 
         <Whatsapp />
       </div>
-    </div>
   );
 };
 

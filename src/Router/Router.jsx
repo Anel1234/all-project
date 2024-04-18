@@ -20,6 +20,8 @@ import SignUpAdmin from "../Pages/SignUpAdmin.jsx";
 import LoginAdmin from "../Pages/LoginAdmin.jsx";
 import ForgotPassword from "../Pages/ForgetPassword.jsx";
 import ResetPassword from "../Pages/ResetPassword.jsx";
+import Testimoni from "../components/Testimoni.jsx";
+import Patner from "../components/Patner.jsx";
 
 const router = createBrowserRouter([
   {
@@ -91,6 +93,14 @@ const router = createBrowserRouter([
   {
     path: "/reset-password",
     element: <ResetPassword />,
+  },
+  {
+    path: "Testimoni",
+    element: <Testimoni />,
+  },
+  {
+    path: "patner",
+    element: <Patner />,
   },
 ]);
 
